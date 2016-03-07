@@ -4,34 +4,54 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 body {
+
   margin: 0;
-  background-image: url(https://github.com/TIY-TN-FEE-2016-spring/assignments/raw/master/05-form-modal/bg.png);
+  background-image: url('https://github.com/TIY-TN-FEE-2016-spring/assignments/raw/master/05-form-modal/bg.png');
 
 
 }
 @import 'box-sizing';
 
 .modal-container {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  position: fixed;
+  width: 25%;
+  margin: 25%;
+  display: flex;
+  flex-wrap: wrap;
 
+}
 
-
+::-webkit-input-placeholder {
+  color: red;
 }
 
 .modal-card {
+  width: 30rem;
+  height: 30rem;
+  position: fixed;
   min-width: 10rem;
-  margin:
-  border-top: 0.2rem solid #dcd;
-  display: flex;
-  background-color: #0040ff;
-  vertical-align: middle;
+  max-width: 20rem;
 
+  border: 0.2rem solid #dcd;
+  shadow: 0.2rem 0.2rem #ff0;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: #0040ff;
+}
+
+.card-title {
+  font-size: 20px;
+  color: red;
+}
+
+.call-log__item {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
 }
 
-.button-name{
+.button-name {
   float: right;
 }
