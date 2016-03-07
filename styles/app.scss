@@ -3,4 +3,35 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+body {
+  margin: 0;
+  background-image: url(https://github.com/TIY-TN-FEE-2016-spring/assignments/raw/master/05-form-modal/bg.png);
+
+
+}
 @import 'box-sizing';
+
+.modal-container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+
+
+
+}
+
+.modal-card {
+  min-width: 10rem;
+  margin:
+  border-top: 0.2rem solid #dcd;
+  display: flex;
+  background-color: #0040ff;
+  vertical-align: middle;
+
+
+}
+
+.button-name{
+  float: right;
+}
