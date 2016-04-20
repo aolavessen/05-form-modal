@@ -4,7 +4,7 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'variables';
-@import 'grid';
+// @import 'grid';
 @import 'base';
 @import 'box-sizing';
 
@@ -22,7 +22,7 @@
 
 
 .modal-card {
-  max-width: 55rem;
+  max-width: 60rem;
   margin: $gutter;
   box-shadow: $brand-shadow;
   background: $card-background;
@@ -48,6 +48,7 @@ flex-wrap: wrap;
   flex-grow: 1;
 }
 .item-bottom {
+  flex-grow: 1;
   outline: none;
   min-width: $input-minimum-width;
   flex-grow: 1;

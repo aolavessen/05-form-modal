@@ -1,0 +1,25 @@
+body {
+  background: url('img/bg.png') no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+
+}
+
+::-webkit-input-placeholder {
+   color: red;
+}
+
+header {
+display: flex;
+color: $card-text-color;
+margin-left: 4rem;
+}
+main {
+margin: $gutter;
+}
+
+footer {
+border-top: $brand-border;
+display: flex;
+justify-content: flex-end;
+}
