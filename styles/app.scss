@@ -4,62 +4,66 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'variables';
-// @import 'grid';
+ // @import 'grid';
 @import 'base';
 @import 'box-sizing';
 
-.boss-container {
+.modal-container {
   display: flex;
-  min-height: 100vh;
-  padding: $gutter;
-
   align-items: center;
   justify-content: center;
-
-  background: $background-haze;
+  min-height: 100vh;
+  padding: $gutter;
+  background: $haze;
   background-position: center center;
 }
 
-
-.modal-card {
-  max-width: 60rem;
-  margin: $gutter;
-  box-shadow: $brand-shadow;
-  background: $card-background;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-
-color: $label-color;
-}
-.item__container {
-display: flex;
-flex-wrap: wrap;
-}
-.item {
+.card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 60rem;
   margin: $gutter;
-  flex-grow: 1;
-  border-bottom: $brand-border;
+  background: $brand-white;
+  color: $brand-light-grey;
+  box-shadow: $brand-shadow;
 }
-.item-top {
+
+.parameter__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parameter {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0 2rem 2rem;
+}
+
+.parmeter-top {
   display: flex;
   flex-grow: 1;
 }
-.item-bottom {
-  flex-grow: 1;
-  outline: none;
-  min-width: $input-minimum-width;
-  flex-grow: 1;
-  margin-bottom: .5rem;
-  margin-top: .5rem;
 
+.parameter-bottom {
+  flex-grow: 1;
+  min-width: $input-minimum-width;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  border-bottom: $brand-border;
+  outline: none;
+  background: $brand-white;
+  font-size: 1.2rem;
 }
 
 .button {
-background: $button-background;
-margin: $gutter;
-width: 8rem;
-padding: 1rem;
+  width: 8rem;
+  margin: $gutter;
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.2rem;
+  background: $brand-primary;
+  color: $brand-white;
 }

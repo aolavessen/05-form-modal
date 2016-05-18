@@ -1,25 +1,26 @@
 body {
+  margin: 0;
   background: url('img/bg.png') no-repeat top center fixed;
-    background-size: cover;
-    margin: 0;
-
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
-
-::-webkit-input-placeholder {
-   color: red;
+ ::-webkit-input-placeholder {
+  color: $brand-grey;
 }
 
 header {
-display: flex;
-color: $card-text-color;
-margin-left: 4rem;
+  display: flex;
+  margin-left: 2rem;
+  padding-top: 2rem;
+  color: black;
 }
+
 main {
-margin: $gutter;
+  margin: 0;
 }
 
 footer {
-border-top: $brand-border;
-display: flex;
-justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  border-top: $brand-border;
 }
